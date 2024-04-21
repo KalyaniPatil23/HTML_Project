@@ -1,0 +1,118 @@
+ul{
+    position: relative;
+    padding: 16px;
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-left: 32px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.header-container{
+    /* background-color: orange; */
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+.header-container ul{
+    background-color: orange;
+    padding-bottom: 27px;
+}
+.bi{
+    margin: 4px;
+}
+
+.user-auth{
+    margin-right: 20px;
+}
+
+.nav-container{
+    position: relative;
+    bottom: 20px;
+}
+
+.nav-margin{
+    margin-right: 50px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    line-height: 24px;
+}
+
+.about-heading{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: orange;
+}
+
+.gallery-heading{
+    /* margin-top: 42px; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.card-row{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.form-container{
+    margin-top: 23px;
+    text-align: center;
+    padding: 40px;
+    /* background-image: linear-gradient(to right, orange, yellow); */
+}
+
+.form-class{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+.btn{
+    float: left;
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(yellow, orange);
+}
+
+input{
+    height: 30px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 195px;
+}
+
+.contact-card{
+    background-image: linear-gradient(yellow, orange);
+    border-radius: 5px;
+    margin: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.contact-card:hover{
+    background-color: black;
+}
